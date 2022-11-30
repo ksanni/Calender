@@ -97,7 +97,7 @@ monthSelect.addEventListener("change", (e) => {
   console.log(e.target.value);
   selectedMonth = +e.target.value + 1;
   generateCalendar(selectedMonth, selectedYear);
-});
+})
 
 function generateMonthDropdown() {
   const currentMonth = new Date().getMonth() + 1;

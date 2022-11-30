@@ -5,7 +5,7 @@ body {
     justify-content: center;
     background: linear-gradient(rgb(239, 123, 123),rgb(156, 187, 56));
   }
-  
+
   .container {
       width: 500px;
       height: 560px;
@@ -67,6 +67,7 @@ body {
     background-color: #a54da457;
     color: #ffffff;
     letter-spacing: 2px;
+    font-size: 34px;
   }
   #today:hover{
     background-color:#e809e457;
